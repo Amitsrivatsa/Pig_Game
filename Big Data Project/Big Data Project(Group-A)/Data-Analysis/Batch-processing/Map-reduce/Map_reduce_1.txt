@@ -1,0 +1,89 @@
+----------------------------------------Main------------------------------------------------
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.util.Tool;
+import org.apache.hadoop.util.ToolRunner;
+
+public class Main  extends Configured implements Tool {
+	   @Override
+	 public int run(String[] args) throws Exception{
+         Configuration conf = this.getConf();
+
+  Job job = Job.getInstance(conf);
+  job.setJobName("Country_users");
+  job.setJarByClass(Main.class);
+ 
+  job.setMapOutputValueClass(Text.class);
+  job.setOutputKeyClass(Text.class);
+  job.setOutputValueClass(LongWritable.class);
+  job.setOutputKeyClass(Text.class);
+ 
+  job.setMapperClass(Map.class);
+  job.setReducerClass(Reduce.class);
+ 
+                 
+  Path inputFilePath = new Path(args[0]);
+  Path outputFilePath = new Path(args[1]);
+  FileInputFormat.addInputPath(job, inputFilePath);
+  FileOutputFormat.setOutputPath(job, outputFilePath);
+
+  return job.waitForCompletion(true) ? 0 : 1;
+        
+}
+
+public static void main(String[] args) throws Exception {
+  int exitCode = ToolRunner.run(new Main(), args);
+  System.exit(exitCode);
+}
+
+}
+
+
+--------------------------------------------Map-----------------------------------------------
+
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+import java.io.IOException;
+
+public class Map extends Mapper<Object, Text , Text, Text>{ 
+
+	 protected void map(Object key, Text value, Context context) 
+		throws IOException, InterruptedException{
+		 String Line = value.toString().trim();
+		 String [] fields = Line.split(",");
+		 context.write(new Text(fields[1]),new Text(fields[0]));
+	}
+	}
+
+---------------------------------------Reduce---------------------------------
+
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import java.util.Set;
+import java.util.TreeSet;
+import org.apache.hadoop.mapreduce.Reducer;
+import java.io.IOException;
+
+public class Reduce extends Reducer<Text, Text, Text, LongWritable> {
+	
+        protected void reduce(Text key, Iterable <Text> values, Context context)
+        		throws IOException, InterruptedException{
+        Set<String> distinctIps =new TreeSet<String>();
+         long count = 0;
+         for(Text value : values) {
+        	 distinctIps.add(value.toString());
+        	 if(distinctIps.size()>0) {
+        	 count++;
+         }
+         }
+         context.write(key, new LongWritable(count));
+       
+        }
+}
+

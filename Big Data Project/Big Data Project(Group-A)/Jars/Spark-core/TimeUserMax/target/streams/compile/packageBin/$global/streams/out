@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0mPackaging /home/vagrant/spark-progs/TimeUserMax/target/scala-2.10/streaming-time-max-_2.10-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	Time_max.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMax/target/scala-2.10/classes/Time_max.class[0m
+[0m[[0mdebug[0m] [0m	Time_max$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMax/target/scala-2.10/classes/Time_max$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	Time_max$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMax/target/scala-2.10/classes/Time_max$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	Time_max$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMax/target/scala-2.10/classes/Time_max$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	Time_max$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMax/target/scala-2.10/classes/Time_max$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	Time_max$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMax/target/scala-2.10/classes/Time_max$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	Time_max$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMax/target/scala-2.10/classes/Time_max$.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

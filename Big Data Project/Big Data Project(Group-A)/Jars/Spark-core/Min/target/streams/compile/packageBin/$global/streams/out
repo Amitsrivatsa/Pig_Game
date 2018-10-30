@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0mPackaging /home/vagrant/spark-progs/Min/target/scala-2.11/spark_2.11-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	Test$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$.class[0m
+[0m[[0mdebug[0m] [0m	Test$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	Test.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test.class[0m
+[0m[[0mdebug[0m] [0m	Test$WebClicksData.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$WebClicksData.class[0m
+[0m[[0mdebug[0m] [0m	Test$$typecreator3$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$$typecreator3$1.class[0m
+[0m[[0mdebug[0m] [0m	Test$WebClicksData$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$WebClicksData$.class[0m
+[0m[[0mdebug[0m] [0m	Test$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$$anonfun$2.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

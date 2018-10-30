@@ -1,0 +1,237 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/vagrant/spark-progs/Min/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.12
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+7 items
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$$anonfun$1.class
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$$anonfun$2.class
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$$typecreator3$1.class
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$.class
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$WebClicksData$.class
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$WebClicksData.class
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> /home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test.class
+binary dependencies:
+6 items
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> /home/vagrant/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.2.0.jar
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> /home/vagrant/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.2.0.jar
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> /home/vagrant/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.2.0.jar
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> /home/vagrant/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.12.jar
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> /home/vagrant/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.12.jar
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> /home/vagrant/bigdata/java/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+7 items
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Test
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Test$
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Test$$anonfun$1
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Test$$anonfun$2
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Test$$typecreator3$1
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Test$WebClicksData
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Test$WebClicksData$
+used names:
+132 items
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> $m
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> $m$untyped
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> $typecreator3
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> $u
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> &&
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> <init>
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> ==
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> ?0
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> A
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> AbstractFunction11
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Any
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> AnyRef
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Array
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Boolean
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Builder
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Class
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> ClassLoader
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> ClassTag
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> DataFrame
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> DatasetHolder
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Encoder
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Function1
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> HostIp
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> IndexOutOfBoundsException
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Int
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Internal
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> IpLookup_DF
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Iterator
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> JavaUniverse
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Mirror
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> ModuleSymbol
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> None
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Nothing
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Object
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Predef
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Product
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> RDD
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> ReificationSupportApi
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Row
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> ScalaRunTime
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Serializable
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Singleton
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Some
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> SparkContext
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> SparkSession
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> String
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Symbol
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> T
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> T0
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> T1
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> T10
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> T11
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> T2
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> T3
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> T4
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> T5
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> T6
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> T7
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> T8
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> T9
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Test
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Tuple11
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Type
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> TypeCreator
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> TypeSymbol
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> TypeTag
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> U
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Unit
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> Universe
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> WebClicksData
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> _$3
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> _$4
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> _$7
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> _hashCode
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> _toString
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> a
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> apache
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> appName
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> apply
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> arrayClass
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> asInstanceOf
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> asModule
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> asType
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> builder
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> config
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> createOrReplaceTempView
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> cs_method
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> customer_ip
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> deviceType
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> domain
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> eq
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> getClass
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> getClassLoader
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> getOrCreate
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> implicits
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> internal
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> isInstanceOf
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> map
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> materializeClassTag
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> materializeTypeTag
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> moduleClass
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> newProductEncoder
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> org
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> package
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> product
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> productType
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> rddToDatasetHolder
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> redirectedFrom
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> reflect
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> reificationSupport
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> result
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> runtime
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> runtimeMirror
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> scala
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> searchDate
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> searchTime
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> selectType
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> show
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> spark
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> sparkContext
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> split
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> sql
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> staticModule
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> textFile
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> timeSpent
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> toDF
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> toString
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> toTypeConstructor
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> typedProductIterator
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> types
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> universe
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> ||
+product stamps:
+7 items
+/home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$$anonfun$1.class -> lastModified(1540905356000)
+/home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$$anonfun$2.class -> lastModified(1540905356000)
+/home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$$typecreator3$1.class -> lastModified(1540905356000)
+/home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$.class -> lastModified(1540905356000)
+/home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$WebClicksData$.class -> lastModified(1540905356000)
+/home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test$WebClicksData.class -> lastModified(1540905356000)
+/home/vagrant/spark-progs/Min/target/scala-2.11/classes/Test.class -> lastModified(1540905356000)
+source stamps:
+1 items
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> hash(9a7d2f3b18d7502275c58fe004ff4cdeff4054a9)
+binary stamps:
+6 items
+/home/vagrant/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.2.0.jar -> lastModified(1498869487000)
+/home/vagrant/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.2.0.jar -> lastModified(1498869279000)
+/home/vagrant/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.2.0.jar -> lastModified(1498869654000)
+/home/vagrant/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.12.jar -> lastModified(1509673049000)
+/home/vagrant/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.12.jar -> lastModified(1509673056000)
+/home/vagrant/bigdata/java/jre/lib/rt.jar -> lastModified(1489566767000)
+class names:
+6 items
+/home/vagrant/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.2.0.jar -> org.apache.spark.sql.Encoder
+/home/vagrant/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.2.0.jar -> org.apache.spark.SparkContext$
+/home/vagrant/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.2.0.jar -> org.apache.spark.sql.DatasetHolder
+/home/vagrant/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.12.jar -> scala.Product
+/home/vagrant/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.12.jar -> scala.reflect.api.TypeCreator
+/home/vagrant/bigdata/java/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwYQW8XwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAA4c3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwA6EDAHQABm5vdGlmeXNxAH4ADImqls90AAd1bmFwcGx5c3EAfgAMLMezLXQAB2N1cnJpZWRzcQB+AAxiFlHCdAAEd2FpdHNxAH4ADMXzNbd0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADNJtt8t0AA0kYXNJbnN0YW5jZU9mc3EAfgAMUTZNWXQADmNvcHkkZGVmYXVsdCQ1c3EAfgAM23YgPHQACWNzX21ldGhvZHNxAH4ADI/EffB0AAxwcm9kdWN0QXJpdHlzcQB+AAxod496dAAGZXF1YWxzc3EAfgAMR/noAHQADmNvcHkkZGVmYXVsdCQ5c3EAfgAMM+euQnQADGFzSW5zdGFuY2VPZnNxAH4ADB/4NAh0AAZkb21haW5zcQB+AAyc/TrBdAAMc3luY2hyb25pemVkc3EAfgAM3Iy20XQADSRpc0luc3RhbmNlT2ZzcQB+AAwyMv8VdAAOY29weSRkZWZhdWx0JDhzcQB+AAzGkfe6dAAGdHVwbGVkc3EAfgAM9tOuonQACmRldmljZVR5cGVzcQB+AAw5c3yQdAAIY2FuRXF1YWxzcQB+AAxOz8E9dAAOY29weSRkZWZhdWx0JDRzcQB+AAxh3/radAAEbWFpbnNxAH4ADAkUVJB0AAl0aW1lU3BlbnRzcQB+AAwiI4ZodAANcHJvZHVjdFByZWZpeHNxAH4ADHjsDAR0AApzZWFyY2hEYXRlc3EAfgAMVwpU2nQAC3Byb2R1Y3RUeXBlc3EAfgAMHMyHvXQACW5vdGlmeUFsbHNxAH4ADEJHXRB0AAtjdXN0b21lcl9pcHNxAH4ADKlycsZ0AAxpc0luc3RhbmNlT2ZzcQB+AAyPcNvQdAAGPGluaXQ+c3EAfgAMWj+S3HQADVdlYkNsaWNrc0RhdGFzcQB+AAyKUbsndAAFYXBwbHlzcQB+AAyeGvM7dAACPT1zcQB+AAy8Yt08dAAFY2xvbmVzcQB+AAyk7NVudAAOY29weSRkZWZhdWx0JDdzcQB+AAwHhKqUdAAPY29weSRkZWZhdWx0JDEwc3EAfgAMHnthrXQABiRpbml0JHNxAH4ADLJ/8090AA5jb3B5JGRlZmF1bHQkM3NxAH4ADNq1o0J0AARjb3B5c3EAfgAM866UlXQABFRlc3RzcQB+AAwg9lkGdAAIdG9TdHJpbmdzcQB+AAzmznJ3dAACIT1zcQB+AAwGqXEEdAAIZ2V0Q2xhc3NzcQB+AAxutjUldAAOY29weSRkZWZhdWx0JDFzcQB+AAyzCnFadAAKc2VhcmNoVGltZXNxAH4ADB9BfRN0AA5jb3B5JGRlZmF1bHQkNnNxAH4ADEgG7MB0AAJuZXNxAH4ADJoAX7R0AA9jb3B5JGRlZmF1bHQkMTFzcQB+AAy3fW15dAACZXFzcQB+AAxMq0zEdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMHfaEF3QAAiMjc3EAfgAMMUO/73QACGZpbmFsaXplc3EAfgAMIYfWvHQADnByb2R1Y3RFbGVtZW50c3EAfgAMrXA5t3QACGhhc2hDb2Rlc3EAfgAM4LBsH3QABkhvc3RJcHNxAH4ADOxz0fV0AAdwcm9kdWN0c3EAfgAMFh4NcXQADnJlZGlyZWN0ZWRGcm9tc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ah3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgBbdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AIdMAAlpbmhlcml0ZWRxAH4Ah0wAB3BhcmVudHNxAH4Ah3hxAH4Ao3NxAH4AnnVxAH4AggAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AiHEAfgCRdXEAfgCSAAAAAHNxAH4AlABxAH4AN3VxAH4AlgAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCidAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AonNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AvnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AKt4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AJl0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+ALJbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AKJzcQB+ALF0AAVBcnJheXEAfgC3dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+ALF0AAZTdHJpbmdzcQB+ALVzcQB+ALh1cQB+ALsAAAADc3EAfgC9dAAEamF2YXNxAH4AvXQABGxhbmdxAH4AwnNxAH4AnnVxAH4AggAAAABzcQB+AJ51cQB+ANYAAAACc3EAfgCxdAAGT2JqZWN0cQB+ANpzcQB+ALF0AANBbnlxAH4At3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFmxR2yK3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADcvaG9tZS92YWdyYW50L3NwYXJrLXByb2dzL01pbi90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUmn0vOxjXUCJ1xY/gBP9M3v9AVKk=
+external apis:
+0 items
+source infos:
+1 items
+/home/vagrant/spark-progs/Min/src/main/scala/Min.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZsUdsit1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANy9ob21lL3ZhZ3JhbnQvc3BhcmstcHJvZ3MvTWluL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv

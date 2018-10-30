@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0mPackaging /home/vagrant/spark-progs/TimeUserMin/target/scala-2.10/streaming-time-min-_2.10-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	Time_min$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMin/target/scala-2.10/classes/Time_min$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	Time_min$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMin/target/scala-2.10/classes/Time_min$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	Time_min$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMin/target/scala-2.10/classes/Time_min$.class[0m
+[0m[[0mdebug[0m] [0m	Time_min$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMin/target/scala-2.10/classes/Time_min$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	Time_min.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMin/target/scala-2.10/classes/Time_min.class[0m
+[0m[[0mdebug[0m] [0m	Time_min$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMin/target/scala-2.10/classes/Time_min$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	Time_min$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/vagrant/spark-progs/TimeUserMin/target/scala-2.10/classes/Time_min$$anonfun$1.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

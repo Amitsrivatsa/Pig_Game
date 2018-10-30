@@ -1,0 +1,56 @@
+1. 
+create database GoShopping;
+use GoShopping;
+
+2.
+create table webclicks(access_date String,access_time String,hostIp String,cs_method String,customer_ip String,url String,time_spent Int,redirectedForm String,deviceType String)
+row format delimited
+fields terminated by '\t'
+lines terminated by '\n'
+stored as textfile;
+
+create table iplookup(IP String,Country String,State String,City String,ApproxLat String,ApproxLng String)
+row format delimited
+fields terminated by ','
+lines terminated by '\n'
+stored as textfile;
+
+3.
+load data local inpath "/home/vagrant/goShopping_WebClicks.dat" into table webclicks;
+
+load data local inpath "/home/vagrant/goShopping_IpLookup.txt" into table iplookup;
+
+4.
+create external table if not exists WebClicks_External (access_date timestamp,access_time timestamp,hostIp String,cs_method String,customer_ip String,url String,time_spent Int)
+comment 'This is WebClicks Table'
+partitioned by (deviceType String,redirectedFrom String)
+row format delimited
+fields terminated by '\t'
+stored as textfile
+location '/Project_Webclicks';
+
+5.
+set hive.exec.dynamic.partition=true;
+set hive.exec.dynamic.partition.mode=nonstrict;
+
+create external table if not exists WebClicks_External1(access_date string,access_time string,hostIp String,cs_method String,customer_ip String,url String,time_spent Int,redirectedFrom String,deviceType String)
+comment 'This is WebClicks Table'
+row format delimited
+fields terminated by '\t'
+stored as textfile
+location '/Project_Webclicks1';
+
+load data local inpath '/home/vagrant/goShopping_WebClicks.dat' into table WebClicks_External1;
+
+create table Dynamic_WebClicks_External(access_date string,access_time string,hostIp String,cs_method String,customer_ip String,url String,time_spent Int,redirectedFrom String)
+partitioned by (deviceType String);
+
+insert overwrite table Dynamic_WebClicks_External partition(deviceType) select access_date,access_time,hostIp,cs_method,customer_ip,url,time_spent,redirectedFrom,deviceType from WebClicks_External1;
+select * from Dynamic_WebClicks_External;
+
+6.
+a. select country,count(ip) as NoOfUSers from iplookup group by country;
+b. select w.customer_ip,i.country,w.time_spent from webclicks w join iplookup i on w.customer_ip=i.ip group by(w.ip);
+c.  select customer_ip,sum(time_spent) as MAX_TIME from webclicks group by customer_ip order by max_time desc limit 1;
+d. select customer_ip,sum(time_spent) as MIN_TIME from webclicks group by customer_ip order by min_time limit 1;
+ 

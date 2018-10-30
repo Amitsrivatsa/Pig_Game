@@ -1,0 +1,86 @@
+-------------------------------------------------Spark CORE----------------------------------------------------------
+
+1a.
+
+import org.apache.spark._
+import org.apache.spark.streaming._
+object Time_max {
+def main(args:Array[String]) {
+val conf = Sparkconf().setAppName("TimeUserMax")
+val sc = SparkContext(conf)
+val inp = sc.textFile("file:///home/vagrant/goShopping_WebClicks.dat",2)
+val split = inp.map(_.split("\t"))
+val line = split.map(x => (x(4),x(6).toInt)).reduceByKey(_+_)
+val result = line.sortBy(_._2,false)
+result.take(1).foreach(println)
+}
+}	
+
+1b.
+import org.apache.spark._
+import org.apache.spark.streaming._
+object Time_min {
+def main(args:Array[String]) {
+val conf = Sparkconf().setAppName("TimeUserMin")
+val sc = SparkContext(conf)
+val inp = sc.textFile("file:///home/vagrant/goShopping_WebClicks.dat",2)
+val split = inp.map(_.split("\t"))
+val line = split.map(x => (x(4),x(6).toInt)).reduceByKey(_+_)
+val result = line.sortBy(_._2)
+result.take(1).foreach(println)
+}
+}
+
+2.
+case class WebClicksData (searchDate:String,searchTime:String,HostIp:String,cs_method:String,customer_ip:String,domain:String,product:String,productType:String,timeSpent:String,redirectedFrom:String,deviceType:String)
+
+3.
+val red = sc.textFile("file:///home/vagrant/goShopping_WebClicks.dat",1)
+val lines = red.map(_.split("\t"))
+val lin = lines.map(a => (a(0),a(1),a(2),a(3),a(4),a(5).replace("="," ").replace("&"," ").replace("//"," ").replace("/?"," ").replace("www."," ").replace(".com"," ").split(" "),a(6),a(7),a(8)))
+val part = lin.map(a => (a._1,a._2,a._3,a._4,a._5,a._6(2),a._6(5),a._6(7),a._7,a._8,a._9)
+part.saveAsTextFile("/InputFile")
+
+hdfs dfs -get /InputFile/part-00000 /home/vagrant/
+
+
+a).
+import org.apache.spark.SparkContext._
+import org.apache.spark.sql.Row
+import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.types._
+import org.apache.spark._
+object Test{
+case class WebClicksData(searchDate:String,searchTime:String,HostIp:String,cs_method:String,customer_ip:String,domain:String,product:String,productType:String,timeSpent:String,redirectedFrom:String,deviceType:String)
+def main(args: Array[String]) {
+val spark = SparkSession.builder().appName("Max").config("spark.some.config.option", "some-value").getOrCreate()
+import spark.implicits._
+val IpLookup_DF = spark.sparkContext.textFile("file:///home/vagrant/goShop_Web").map(_.split(",")).map(a => WebClicksData(a(0),a(1),a(2),a(3),a(4),a(5),a(6),a(7),a(8),a(9),a(10))).toDF()
+IpLookup_DF.createOrReplaceTempView("WebClicks")
+val result = spark.sql("select customer_ip,sum(timeSpent) as MAX_TIME from webclicks group by customer_ip order by max_time desc limit 1")
+result.show()
+}
+}
+
+b).
+import org.apache.spark.SparkContext._
+import org.apache.spark.sql.Row
+import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.types._
+import org.apache.spark._
+object Test{
+case class WebClicksData(searchDate:String,searchTime:String,HostIp:String,cs_method:String,customer_ip:String,domain:String,product:String,productType:String,timeSpent:String,redirectedFrom:String,deviceType:String)
+def main(args: Array[String]) {
+val spark = SparkSession.builder().appName("Min").config("spark.some.config.option", "some-value").getOrCreate()
+import spark.implicits._
+val IpLookup_DF = spark.sparkContext.textFile("file:///home/vagrant/goShop_Web").map(_.split(",")).map(a => WebClicksData(a(0),a(1),a(2),a(3),a(4),a(5),a(6),a(7),a(8),a(9),a(10))).toDF()
+IpLookup_DF.createOrReplaceTempView("WebClicks")
+val result = spark.sql("select customer_ip,sum(timeSpent) as MIN_TIME from webclicks group by customer_ip order by min_time limit 1")
+result.show()
+}
+}
+
+
+
+
+
