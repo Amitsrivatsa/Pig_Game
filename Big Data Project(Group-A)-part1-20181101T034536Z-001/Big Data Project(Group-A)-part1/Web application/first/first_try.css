@@ -1,0 +1,26 @@
+#i1 {
+	border:2px solid #456879;
+	border-radius:10px;
+	border-width: 70%;
+	border-bottom: 80%;
+	opacity: 0.6;
+	width: 100px;
+    height: 250px;
+    background-color: red;
+
+    
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+#ddd{
+	height: 900px;
+	background-image: linear-gradient(#141E30, #243B55);
+}
