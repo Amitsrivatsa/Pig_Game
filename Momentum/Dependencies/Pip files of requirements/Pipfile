@@ -13,7 +13,7 @@ python_version = "3.6"
 [packages]
 
 cython = "==0.25.2"
-"jinja2" = "==2.8"
+"jinja2" = "==2.11.3"
 markupsafe = "==0.23"
 pygments = "==2.0.2"
 appnope = "==0.1.0"
